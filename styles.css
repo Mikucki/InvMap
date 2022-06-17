@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.header-styling {
+    background-color: #1F2937;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: auto;
+    height: 250px;
+}
+.links {
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+a:hover, a:visited, a:link, a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.flex-contener {
+    display: flex;
+    align-items: center;
+}
+
