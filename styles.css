@@ -37,7 +37,7 @@ a:hover, a:visited, a:link, a:active {
 
 .flex-contener {
     display: flex;
-    align-items: center;
+    
 }
 
 
@@ -82,5 +82,29 @@ a:hover, a:visited, a:link, a:active {
 .box {
     width: 400px;
     height: 330px;
-    background-color: grey;
+    background-color: rgb(193, 187, 187);
+    color: #f9faf8;
+    float: right;
+}
+
+/* end of header */
+
+
+.random-info {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+
+}
+.litte-box-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.litte-boxes {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    list-style-type: none;
 }
