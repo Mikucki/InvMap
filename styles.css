@@ -1,7 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+
+
+/* navbar ends here */
+
 
 .text-logo {
     font-size: 24px;
@@ -11,10 +17,10 @@
 
 .header-styling {
     background-color: #1F2937;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 200px;
+    padding-right: 200px;
     width: auto;
-    height: 250px;
+    height: 500px;
 }
 .links {
     list-style-type: none;
@@ -34,3 +40,47 @@ a:hover, a:visited, a:link, a:active {
     align-items: center;
 }
 
+
+
+/* navbar ends here */
+
+
+/*amazing text starts here */
+
+.important-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.lessimportant-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.flex-two-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.signup-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.box {
+    width: 400px;
+    height: 330px;
+    background-color: grey;
+}
