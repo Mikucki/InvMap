@@ -96,15 +96,48 @@ a:hover, a:visited, a:link, a:active {
     padding: 50px;
 
 }
+
+.flex-row {
+    display: flex;
+    align-items: flex-end;
+}
 .litte-box-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-direction: row;
+    
     
 }
-.litte-boxes {
+.litte-boxes1 {
     width: 200px;
     height: 200px;
     border: 5px solid #3882f6;
     border-radius: 20px;
     list-style-type: none;
 }
+
+.litte-boxes2 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+.litte-boxes3 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+
+.litte-boxes4 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
