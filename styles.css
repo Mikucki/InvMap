@@ -116,6 +116,7 @@ a:hover, a:visited, a:link, a:active {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
 .litte-boxes2 {
     width: 200px;
     height: 200px;
@@ -140,4 +141,11 @@ a:hover, a:visited, a:link, a:active {
     border-radius: 20px;
     list-style-type: none;
 }
+=======
+/* boxes end of secion */
+
+
+
+/* inspiracional text starts here */
+>>>>>>> 9a0775d (added inspiring text)
 
