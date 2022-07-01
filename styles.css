@@ -13,6 +13,7 @@
     font-size: 24px;
     color: #f9faf8;
     flex: 1;
+    padding-top: 12px;
 }
 
 .header-styling {
@@ -90,54 +91,75 @@ a:hover, a:visited, a:link, a:active {
 /* end of header */
 
 
-.random-info {
+.set-of-skills {
     text-align: center;
     font-weight: bold;
     padding: 50px;
-
+    margin-bottom: 50px;
 }
 
 .flex-row {
     display: flex;
-    align-items: flex-end;
 }
 .litte-box-flex {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    background-color: red;
     
     
 }
-.litte-boxes1 {
-    width: 200px;
+.litte-box {
+    width: auto;
     height: 200px;
-    border: 5px solid #3882f6;
     border-radius: 20px;
     list-style-type: none;
 }
 
-.litte-boxes2 {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #3882f6;
-    border-radius: 20px;
-    list-style-type: none;
+.text-under-skills {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
-.litte-boxes3 {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #3882f6;
-    border-radius: 20px;
-    list-style-type: none;
+/* Quote seciotion */
+
+.section-quote {
+    background-color: #E5e7eb;
+    display: flex;
+    width: auto;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 350px;
+    padding-left: 350px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-family: italic;
+    color: #1f2937;
 }
 
 
-.litte-boxes4 {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #3882f6;
-    border-radius: 20px;
-    list-style-type: none;
+.author {
+    color: black;
+    font-weight: bold;
+    margin-left: auto;
+    font-size: 40px;
+    margin-top: 20px;
+
 }
+
+.fotter {
+    background-color: #1F2937;
+    height: 300px;
+    width: auto;
+}
+
+
 
